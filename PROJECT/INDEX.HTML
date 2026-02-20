@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subject bys form fill</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <!-- for emoji in vs press window key + ;  -->
+    <h2> 🎯Smart Event Dashboard</h2>  
+    <div class = "Events-details">
+        <h4>Add New Event</h4>
+        <div class = "eventtitle">
+            <label for = "eventTitle">Event Title :</label><br>
+                <input id = "eventTitle" type = "text" placeholder = " enter Event Title" required> 
+        </div>
+        <div class = "eventdate">
+            <label for = "eventDate"> \Event Date :</label><br>
+              <input id = "eventDate" type = "date" name = "date" required>
+        </div>
+        <div class = "category">
+            <label for = "category"> Category :</label><br>
+            <select id = "category" name = "category" required>
+                <option value = "">please select a category.. </option>
+                <option value = "Conference">Conference</option>
+                <option value = "Workshop">Workshop</option>
+                <option value ="Meetup">Meetup</option>
+                <option value = "Webinar">Webinar</option>
+                <option value = "Social">Social</option>
+            </select>
+        </div>
+        <div class = "description">
+            <label for = "description">Description :</label><br>
+            <textarea id = "description" placeholder = " enter event description..." required></textarea>
+        </div>
+        <button class = "add-btn" onclick = "addEvent()"> Add Event</button>
+    </div>
+
+    <div class = "added-events"> 
+        <h4>My Events</h4>
+        <button  class = "clear-btn" onclick="clearAllEvents()"> Clear All Events</button>
+        <button  class = "sample-btn" onclick="addSampleEvents()">Add Sample Events</button> 
+         <div id="eventsList">
+                <div class="no-events">No events yet. Add your first event! 🎉</div>
+            </div>           
+    </div>
+    <div class = "DOM-contanier">
+        <h3>DOM Manipulation Demo</h3>
+        <input>
+    </div>
+ 
+</body>
+</html>
+
+<script src = "script.js"></script>

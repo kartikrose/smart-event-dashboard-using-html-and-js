@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(40, 224, 23);
+}   
+
+h2{
+    color: rgb(248, 252, 249);
+    position: absolute;
+    top: 10px;
+    
+}
+
+/*  event sdetail box code */
+
+.Events-details{
+    background-color: white;
+    height:240px;
+    width:180px;
+    border-radius: 5px;
+    size: 30%;
+    font-size: smaller;
+   
+}
+
+h4{
+    color: rgb(35, 199, 14);
+    margin: 8px 0px 0px 7px;
+    font-size: small;
+}
+h3{
+    color: rgb(146, 219, 11);
+    margin: 8px 0px 5px 7px;
+    font-size: small;
+}
+
+.eventtitle label{
+    padding: 0px;
+    margin: 2px 2px 0px 7px;
+    font-size: 80%;
+}
+.eventtitle input{
+    margin: 2px 4px 2px 6px;
+}
+
+.eventdate label{
+    padding: 0px;
+    margin: 2px 2px 0px 7px;
+    font-size: 80%;
+}
+.eventdate input{
+    padding: 0px 46px 0px 6px;
+    margin: 2px 3px 2px 6px;
+}
+
+.category label{
+    padding: 0px;
+    margin: 2px 2px 0px 7px;
+    font-size: 80%;
+}
+.category select {
+  margin-left: 2px 3px 2px 7px;
+  padding-left: 2px;
+}
+
+.description label{ 
+    padding: 0px;
+    margin: 3px 2px 0px 7px;
+    font-size: 80%;
+}
+.description textarea{
+    margin: 3px 0px 2px 6px;
+    padding-right: 3px;
+    height: 50px;   
+}
+.add-btn{
+    margin: 6px 2px 2px 6px;
+    width: 160px;
+    font-size: small;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(18, 126, 168);
+    box-shadow: 4px 3px 3px rgb(108, 163, 35)
+}
+
+/* event s added code  */
+
+.added-events{
+    background-color: white;
+    width: 400px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 8px;
+}
+.clear-btn{
+    margin: 9px 2px 2px 8px;
+    width: 180px;
+    font-size: small;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(233, 146, 16);
+    box-shadow: 4px 3px 3px rgb(20, 238, 5)
+}
+.sample-btn{
+    margin: 9px 2px 2px 8px;
+    width: 180px;
+    font-size: small;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(233, 146, 16);
+    box-shadow: 4px 3px 3px rgb(20, 238, 5)
+}
+.no-events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.DOM-contanier{
+    background-color: white;
+    position: absolute;
+    bottom: 7px;
+    width: 588px;
+    border-radius: 5px;
+}
+.DOM-contanier input{
+    margin:2px 2px 4px 7px;
+    width: 500px;
+}
